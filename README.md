@@ -92,8 +92,8 @@ Each notebook includes:
 
 | Rank | Model | Test Accuracy | Training Time | Parameters | Notes |
 |------|-------|---------------|---------------|------------|-------|
-| 🥇 | **XceptionLSTM** | **98.33%** | ~45 min | 20M | Best overall performance, dense connections |
-| 🥈 | **DenseNet201** | **98.02%** | ~50 min | 23M | Sequential modeling capability |
+| 🥇 | **XceptionLSTM** | **98.33%** | ~45 min | 20M | Best overall performance,Sequential modeling capability |
+| 🥈 | **DenseNet201** | **98.02%** | ~50 min | 23M | Dense connections|
 | 🥉 | **InceptionV3** | **98.10%** | ~40 min | 24M | Multi-scale feature extraction |
 | 4 | **MobileNetV2** | **98.00%** | ~30 min | 3.5M | Fastest inference, mobile-ready |
 | 5 | **Xception** | **98.00%** | ~42 min | 23M | Depthwise separable convolutions |
