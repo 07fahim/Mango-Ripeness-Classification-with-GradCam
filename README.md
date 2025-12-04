@@ -15,7 +15,7 @@ This project implements deep learning models to classify **six stages of mango r
 - **Image Size**: 224x224 pixels
 - **Batch Size**: 64
 - **Models Tested**: 8 different architectures
-- **Best Performance**: 99% accuracy (DenseNet201)
+- **Best Performance**: 98.33% accuracy (XceptionLstm)
 - **Tools**: TensorFlow, Keras, scikit-learn, Grad-CAM
 
 ## 🎯 Ripeness Stages
