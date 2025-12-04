@@ -69,11 +69,11 @@ jupyter notebook models/
 ```
 
 Available notebooks:
-- `mangodensenet201.ipynb` - DenseNet201 (Best performer)
+- `mangodensenet201.ipynb` - DenseNet201 
 - `mangoinceptionv3.ipynb` - InceptionV3
 - `mangomobilenetv2.ipynb` - MobileNetV2
 - `mangoxception.ipynb` - Xception
-- `mangoxceptionlstm.ipynb` - XceptionLSTM
+- `mangoxceptionlstm.ipynb` - XceptionLSTM (Best performer)
 - `mangocnn.ipynb` - Custom CNN (EfficientNetV2B0)
 - `mangovgg19.ipynb` - VGG19
 - `mangoresnet50.ipynb` - ResNet50
@@ -92,17 +92,17 @@ Each notebook includes:
 
 | Rank | Model | Test Accuracy | Training Time | Parameters | Notes |
 |------|-------|---------------|---------------|------------|-------|
-| 🥇 | **DenseNet201** | **99.00%** | ~45 min | 20M | Best overall performance, dense connections |
+| 🥇 | **DenseNet201** | **98.02%** | ~45 min | 20M | Best overall performance, dense connections |
 | 🥈 | **XceptionLSTM** | **98.33%** | ~50 min | 23M | Sequential modeling capability |
-| 🥉 | **InceptionV3** | **98.00%** | ~40 min | 24M | Multi-scale feature extraction |
+| 🥉 | **InceptionV3** | **98.10%** | ~40 min | 24M | Multi-scale feature extraction |
 | 4 | **MobileNetV2** | **98.00%** | ~30 min | 3.5M | Fastest inference, mobile-ready |
 | 5 | **Xception** | **98.00%** | ~42 min | 23M | Depthwise separable convolutions |
 | 6 | **CNN (EfficientNetV2B0)** | **97.00%** | ~35 min | 7M | Efficient compound scaling |
-| 7 | **VGG19** | **97.00%** | ~55 min | 144M | Classic architecture, very deep |
+| 7 | **VGG19** | **97.30%** | ~55 min | 144M | Classic architecture, very deep |
 | 8 | **ResNet50** | **92.00%** | ~38 min | 26M | Good baseline with residual connections |
 
 
-### Confusion Matrix - DenseNet201 (Best Model)
+### Confusion Matrix - Xception+Lstm (Best Model)
 
 Results on test set (600 images):
 
